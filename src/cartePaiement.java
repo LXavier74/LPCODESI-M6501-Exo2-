@@ -1,5 +1,5 @@
 
-public class cartePaiement {
+public abstract class cartePaiement {
 
 	
 public double payeAchat(double montant)
