@@ -8,12 +8,7 @@ public double payeAchat(double montant)
 }
 public boolean autorisePaiement(double montant)
 {
-	boolean result;
-	result=false;
-	if (montant > 0)
-	{
-		result = true;
-	}
+	boolean result = false;
 	return result;
 }
 

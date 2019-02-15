@@ -5,12 +5,6 @@ public class carteCredit extends cartePaiement {
 	
 	public boolean autorisePaiement(double montant)
 	{
-		boolean result;
-		result=false;
-		if (montant > 0)
-		{
-			result = true;
-		}
-		return result;
+	return (encours+montant <=plafond);
 	}
 }
